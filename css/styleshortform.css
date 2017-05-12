@@ -1,0 +1,111 @@
+html, body {
+    width:100%;
+    height:auto;
+}
+h1, h2, h3, h4 {
+    font-family:"Arimo";
+}
+
+header {
+    padding-top:40px;
+    margin-left:900px;
+    float:right;
+    position:absolute;
+}
+
+nav {
+    margin-bottom:60px;
+    margin-left:40px;
+}
+
+h3{
+    float:right;
+    margin-top:-48px;
+    font-family:"Arimo";
+    font-size:25px;
+    font-weight:bolder;
+    text-decoration-color: red;
+}
+
+section {
+    vertical-align: text-top;
+    width:600px;
+    height:600px;
+    float:right;
+    margin-right:40px;
+    width:1300px;
+     animation-name:slide;
+    animation-duration:3s;
+}
+
+#container1 {
+    height:400px;
+    width:600px;
+    padding-left:40px;
+    padding-right:-150px;
+    background-image:url(../img/bannon.jpg);
+    background-repeat:no-repeat;
+}
+
+#article {
+    padding-top:78px;
+    margin-top:-680px;
+    column-count:2;
+    float:right;
+    width:600px;
+    height:600px;
+    column-count:2;
+    column-gap:60px;
+   vertical-align: top;
+    font-size:15px;
+}
+
+a {
+    color:black;
+    font-style:italic; 
+}
+
+#politics {
+    text-decoration-line: none;
+    margin-top:35px;
+    font-family:"Arimo";
+    height:200px;
+    font-size:67px;
+    width:1300px;
+    position:relative;
+    animation-duration:2s;
+    animation-name: move;
+  
+}
+
+@keyframes move {
+     0%   {left:-400px;}
+    25%  {left:60ppx;}
+    50%  {left:95px;}
+    75%  {left:0px;}
+    100% {left:0px;}
+}
+
+h1 {
+   padding-left:40px;
+    width:600px;
+    font-size:62px;
+    align-content: center;
+    font-family:"Arimo";
+    
+}
+p1 {
+    font-size:13;
+    margin-top:40px;
+    font-family:"Arimo";
+}
+
+p2 {
+    font-style:italic;
+}
+
+
+footer {
+    padding-bottom:50px;
+    margin-left:300px;
+}
